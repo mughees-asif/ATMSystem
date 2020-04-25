@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be76d1d4-cb1b-4b8f-9837-f6a80a23769a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BalanceInquiry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashDeposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CashDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CashDispenser.java" afterDir="false" />
     </list>

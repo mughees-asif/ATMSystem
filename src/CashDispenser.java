@@ -18,7 +18,7 @@ public class CashDispenser {
         // update count of bills
         count -= billsRequired;
     }
-    
+
     // indicates whether the cash dispenser can dispense desired amount
     public boolean isSufficientCashAvailable(int amount) {
         // number of £20 bills required
