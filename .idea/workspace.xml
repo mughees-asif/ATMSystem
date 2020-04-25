@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be76d1d4-cb1b-4b8f-9837-f6a80a23769a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Withdrawal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashDispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Keypad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587828173096</updated>
     </task>
+    <task id="LOCAL-00001" summary="Design of the overall system completed">
+      <created>1587829553896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587829553896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Design of the overall system completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design of the overall system completed" />
   </component>
 </project>
