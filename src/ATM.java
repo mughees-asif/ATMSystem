@@ -1,3 +1,6 @@
+import java.awt.*;
+import java.util.concurrent.TimeUnit;
+
 // represents an automated teller machine
 public class ATM {
 
@@ -34,7 +37,7 @@ public class ATM {
     }
 
     // start ATM
-    public void run() {
+    public void run() throws InterruptedException {
         while (true) {
             while (!userAuthenticated) {
                 screen.displayMessageLine("\nWelcome!");
@@ -43,7 +46,6 @@ public class ATM {
             performTransactions();
             userAuthenticated = false;
             currentAccountNumber = 0;
-            screen.displayMessage("\nThank you! Goodbye!");
         }
     }
 
@@ -61,11 +63,12 @@ public class ATM {
             currentAccountNumber = accountNumber;
         } else {
             screen.displayMessageLine("Invalid account number or PIN. Please try again.");
+            System.exit(0);
         }
     }
 
     // display the main menu and perform transactions
-    private void performTransactions() {
+    private void performTransactions() throws InterruptedException {
         Transaction currentTransaction = null;
         boolean userExited = false;
 
@@ -86,6 +89,12 @@ public class ATM {
                     // user chose to terminate the session
                     screen.displayMessageLine("\nExiting the system...");
                     userExited = true;
+                    TimeUnit.SECONDS.sleep(1);
+                    screen.displayMessageLine("...");
+                    TimeUnit.SECONDS.sleep(1);
+                    screen.displayMessage("\nThank you! Goodbye!");
+                    System.out.println();
+                    System.exit(0);
                     break;
                 default:
                     // user did not enter a integer b/w 1 - 4
